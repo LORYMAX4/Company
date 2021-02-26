@@ -10,6 +10,7 @@ public class Employee extends IDModel<Long> {
 	private int baseSalary;
 
 	public Employee() {
+		super();
 	}
 
 	public Employee(String firstname, String lastname, int baseSalary) {
