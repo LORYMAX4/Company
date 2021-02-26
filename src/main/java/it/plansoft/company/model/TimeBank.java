@@ -10,13 +10,13 @@ public class TimeBank extends IDModel<Long> {
 	private int maxHoursForDay;
 	private int hoursWorked;
 	private int extraHours;
-	private int idLevel;
+	private Long idLevel;
 	private int nPromotions;
 
 	public TimeBank() {
 	}
 
-	public TimeBank(Long idEmployee, int idLevel) {
+	public TimeBank(Long idEmployee, Long idLevel) {
 		this.idEmployee = idEmployee;
 		this.idLevel = idLevel;
 	}
@@ -61,11 +61,11 @@ public class TimeBank extends IDModel<Long> {
 		this.extraHours = extraHours;
 	}
 
-	public int getIdLevel() {
+	public Long getIdLevel() {
 		return idLevel;
 	}
 
-	public void setIdLevel(int idLevel) {
+	public void setIdLevel(Long idLevel) {
 		this.idLevel = idLevel;
 	}
 

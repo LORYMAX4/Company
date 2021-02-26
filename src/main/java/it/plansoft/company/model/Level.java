@@ -13,7 +13,7 @@ public class Level extends IDModel<Long>{
 
 	public Level(String description, int promotionValueSalary) {
 		this.description = description;
-		PromotionValueSalary = promotionValueSalary;
+		this.PromotionValueSalary = promotionValueSalary;
 	}
 
 	public String getDescription() {
